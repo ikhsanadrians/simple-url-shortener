@@ -3,7 +3,7 @@ import { FaRegClipboard } from "react-icons/fa6"
 import axios from "axios"
 import { env } from "./utils/env";
 import { response } from "./utils/types/response";
-import React, { useState, ChangeEvent } from 'react'
+import { useState, ChangeEvent } from 'react'
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import HashLoader from "react-spinners/HashLoader";
 
@@ -120,7 +120,6 @@ function App() {
           }
         </div>
       </div>
-
     </>
   )
 }

@@ -9,5 +9,5 @@
 }
 
 body {
-  @apply bg-zinc-100 
+  @apply h-[100vh] bg-gradient-to-t from-cyan-700 to-blue-700 overflow-hidden
 }
